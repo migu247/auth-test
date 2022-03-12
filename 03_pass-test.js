@@ -40,4 +40,4 @@ PassService.encriptaPassword(usuario.password).then(hash => {
             }
         }).catch(err => console.log(err));
 
-})
+});
