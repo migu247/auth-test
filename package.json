@@ -13,5 +13,9 @@
     "jwt"
   ],
   "author": "migu247",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "moment": "^2.29.1"
+  }
 }
