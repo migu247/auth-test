@@ -4,6 +4,8 @@
 //      $2b$10$9aCAVDEsbc5blE/OT4EnP.V1FZKfHMnVx4QkgZ6OFf9KDWLwUrd1S
 //      ***---***********************+++++++++++++++++++++++++++++++
 //      Alg Cost        Salt                    Hash
+
+
 const { hash } = require('bcrypt');
 const bcrypt = require('bcrypt');
 
@@ -14,6 +16,8 @@ const badPass = "miOtraContraseña";
 // hash = bcrypt.hash( miPass, salt);
 // db.users.update(id, hash);
 // db.account.hash.update(id, salt);
+
+
 
 //Creamos Salt
 bcrypt.genSalt(15, (err, salt) => {
